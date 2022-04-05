@@ -1,0 +1,45 @@
+@import "./colors.scss";
+@import "./fonts.scss";
+
+nav {
+  margin-top: 20px;
+  div {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+}
+
+div > a {
+  text-decoration: none;
+  color: $black;
+}
+.logo {
+  font-weight: $weight-bold;
+  font-size: 32px;
+}
+
+.passive {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.right-items {
+  margin-left: auto;
+}
+.avatar-image {
+  width: 40px;
+}
+.cart-image {
+  width: 20px;
+  margin-right: 10px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  color: rgba(0, 0, 0, 0.2); /* old IE */
+  background-color: rgba(0, 0, 0, 0.2); /* Modern Browsers */
+  margin-top: 20px;
+  border-radius: 20px;
+}
